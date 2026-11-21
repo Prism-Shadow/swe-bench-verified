@@ -1,0 +1,8 @@
+.cache/
+__pycache__/
+jobs/
+**/tasks/*/instruction.md
+**/tasks/*/solution/gold.patch
+**/tasks/*/tests/eval.sh
+**/tasks/*/tests/tests.json
+**/tasks/*/tests/instance.json
