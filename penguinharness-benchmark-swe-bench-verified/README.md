@@ -114,4 +114,4 @@ With `--dry-run`, Harbor validates all 500 trials before starting any containers
 The SWE-bench harness is MIT. The task repository (`SWE-bench/swe-bench-tasks`) and the
 dataset card declare no licence at the pinned revisions, and some target repositories are
 GPL-2.0. Redistribution of these task files has not been cleared with the upstream
-maintainers; the package is submitted with `status = "draft"` for that reason.
+maintainers.
