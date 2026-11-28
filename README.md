@@ -13,4 +13,4 @@ uv run prepare.py penguinharness-benchmark-swe-bench-verified astropy__astropy-1
 
 For the [500-task batch](penguinharness-benchmark-swe-bench-verified/README.md), prepare the entire split with `uv run prepare.py penguinharness-benchmark-swe-bench-verified`.
 
-For each run, check out the [shared adapter](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/496175abb179dd094fe59e7e12e0e11699a523e2/agents) at the revision in the Case and set `ADAPTER_DIR` to the absolute path of its `agents/` directory. Run the Harbor command in the Case from this checkout. See the [dataset provenance](penguinharness-benchmark-swe-bench-verified/SOURCE.md) and [notices](THIRD_PARTY_NOTICES.md).
+Use the `ADAPTER_DIR` supplied by the evaluator when running the Case from this checkout. See the [dataset provenance](penguinharness-benchmark-swe-bench-verified/SOURCE.md) and [notices](THIRD_PARTY_NOTICES.md).
